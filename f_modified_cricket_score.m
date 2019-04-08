@@ -1,4 +1,8 @@
 function [yy,score]=f_modified_cricket_score (url)
+% Coded by Swapan Masanta - 28-Mar-2019 11:27:36
+
+
+
 format short g
 [x]=f_Google_cricket_search(url);
 y=[x(1,1),x(2,1),x(3,1),x(1,1)/x(3,1)];
