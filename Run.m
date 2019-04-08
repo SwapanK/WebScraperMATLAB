@@ -1,3 +1,5 @@
+% Coded by Swapan Masanta - 28-Mar-2019 11:27:36
+
 m=1;
 count=1;count1=1;count2=2;ymin=0;ymax=12;
 store_run=zeros(2,2);wicket{m,1}(1,:)=[0,0,0];
