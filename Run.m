@@ -92,7 +92,7 @@ for i=2:2000
     
     
     
-    if (i>1 && (store_raw{m,1}(i,3)-store_raw{m,1}(i-1,3))>0)
+    if (i>3 && (store_raw{m,1}(i,3)-store_raw{m,1}(i-1,3))>0)
         disp(run)
         store_run(count2,1)=run;
         store_run(count2,2)=store_raw{m,1}(i,3);
